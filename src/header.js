@@ -6,7 +6,7 @@ class Header extends React.Component{
         return (
             <header >
                 
-                <img id="cover-photo" src="http://coverlayout.com/facebook/covers/breaking_bad_walter_suit/breaking_bad_walter_suit.jpg"
+                <img id="cover-photo" src={this.props.headerUrl}
                     alt="img not available"></img>
             
             </header>
